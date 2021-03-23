@@ -230,7 +230,7 @@ var selectCat = function () {
   }
   for (var i = 0; i < geusses.length; i++) {
     if (counter + space === geusses.length) {
-      showLives.innerHTML = "Du fant det!";
+      showLives.innerHTML = "Gratulerer! Gå på kontoret til pappa for siste oppgave!";
     }
   }
 }
@@ -333,7 +333,7 @@ drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3
 // Play
 play = function () {
   categories = [
-      ["vaskerommet"],            
+      ["reker"],            
   ];
 
   chosenCategory = categories[0];
@@ -359,7 +359,7 @@ play();
   hint.onclick = function() {
 
     hints = [
-      ["Det står en tørketrommel der", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
+      ["Du får ingen hint!", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
       ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
       ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital"]
   ];
@@ -384,8 +384,8 @@ document.getElementById('reset').onclick = function() {
 
         </script>
         <div class="wrapper">
-            <h1>Mysteriet om den forsvunnede after eight sjokoladen</h1>            
-            <p>Du må finne det første hintet her: </p>
+            <h1>Mysteriet om den forsvunnede after eight sjokoladen nr 2</h1>            
+            <p>Du må finne det andre hintet her: </p>
         </div>
         <div class="wrapper">
             <div id="buttons">
