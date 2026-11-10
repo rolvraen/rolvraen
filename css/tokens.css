@@ -1,0 +1,103 @@
+/* Strong Resolve — generated from design/tokens.json. Edit the tokens, not this file. */
+:root {
+  --palette-snow: #eef1f2;
+  --palette-fjell: #2b3a45;
+  --palette-ice: #8fbccc;
+  --palette-granite: #6a7780;
+  --palette-ink: #1c2830;
+  --palette-blue-hour: #1f272d;
+  --palette-varde: #b8322a;
+  --surface: var(--palette-snow);
+  --surface-raised: #f8fafa;
+  --surface-sunken: #e2e7e9;
+  --surface-fjell: var(--palette-fjell);
+  --on-fjell: var(--palette-snow);
+  --on-fjell-muted: #c3ccd1;
+  --on-fjell-link: var(--palette-ice);
+  --ink: var(--palette-ink);
+  --ink-muted: #55626b;
+  --on-ink: #eef1f2;
+  --line: #c9d1d5;
+  --line-strong: #6a7780;
+  --band-ice: var(--palette-ice);
+  --band-granite: var(--palette-granite);
+  --mark: var(--palette-fjell);
+  --ice-ink: #2a5b6e;
+  --varde: var(--palette-varde);
+  --on-varde: #ffffff;
+  --focus-ring: #2a5b6e;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --radius-none: 0px;
+  --radius-icon: 22%;
+  --rule-heavy: 4px;
+  --band-1: 8px;
+  --band-2: 6px;
+  --rule-thin: 1px;
+  --content-max: 1120px;
+  --measure: 60ch;
+  --font-display: "Saira Condensed", "Arial Narrow", sans-serif-condensed, sans-serif;
+  --font-body: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface: var(--palette-blue-hour);
+    --surface-raised: #28323a;
+    --surface-sunken: #182025;
+    --surface-fjell: #151c21;
+    --on-fjell: var(--palette-snow);
+    --on-fjell-muted: #a6b0b7;
+    --on-fjell-link: #9cc7d6;
+    --ink: #eef1f2;
+    --ink-muted: #a6b0b7;
+    --on-ink: #1c2830;
+    --line: #36424b;
+    --line-strong: #6f7a82;
+    --band-ice: #9cc7d6;
+    --band-granite: #8a969e;
+    --mark: #eef1f2;
+    --ice-ink: #9cc7d6;
+    --varde: #e2574b;
+    --on-varde: #1c2830;
+    --focus-ring: #9cc7d6;
+  }
+}
+:root[data-theme="dark"] {
+  --surface: var(--palette-blue-hour);
+  --surface-raised: #28323a;
+  --surface-sunken: #182025;
+  --surface-fjell: #151c21;
+  --on-fjell: var(--palette-snow);
+  --on-fjell-muted: #a6b0b7;
+  --on-fjell-link: #9cc7d6;
+  --ink: #eef1f2;
+  --ink-muted: #a6b0b7;
+  --on-ink: #1c2830;
+  --line: #36424b;
+  --line-strong: #6f7a82;
+  --band-ice: #9cc7d6;
+  --band-granite: #8a969e;
+  --mark: #eef1f2;
+  --ice-ink: #9cc7d6;
+  --varde: #e2574b;
+  --on-varde: #1c2830;
+  --focus-ring: #9cc7d6;
+}
+.display { font-family: var(--font-display); font-size: 88px; line-height: 80px; font-weight: 800; letter-spacing: -0.01em; }
+.h1 { font-family: var(--font-display); font-size: 56px; line-height: 54px; font-weight: 800; }
+.h2 { font-family: var(--font-display); font-size: 40px; line-height: 40px; font-weight: 800; }
+.h3 { font-family: var(--font-display); font-size: 28px; line-height: 30px; font-weight: 700; }
+.lead { font-family: var(--font-body); font-size: 20px; line-height: 30px; font-weight: 500; }
+.body { font-family: var(--font-body); font-size: 16px; line-height: 26px; font-weight: 400; }
+.small { font-family: var(--font-body); font-size: 14px; line-height: 22px; font-weight: 400; }
+.button { font-family: var(--font-body); font-size: 15px; line-height: 20px; font-weight: 700; letter-spacing: 0.04em; }
+.label { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.06em; }

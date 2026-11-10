@@ -1,28 +1,84 @@
-﻿<!doctype html>
-
-<html lang="en">
+<!doctype html>
+<html lang="nb">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Strong Resolve">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Strong Resolve</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strong Resolve</title>
+  <meta name="description" content="Apper og verktøy for Android og nett: Matvaretabellen, Dagen i dag og WattsLeft.">
+  <link rel="canonical" href="https://strongresolve.no/">
+  <link rel="alternate" hreflang="nb" href="https://strongresolve.no/">
+  <link rel="alternate" hreflang="en" href="https://strongresolve.no/en/">
+  <link rel="alternate" hreflang="x-default" href="https://strongresolve.no/">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/sr-favicon.svg">
+  <link rel="apple-touch-icon" href="assets/brand/sr-app-icon.svg">
+  <meta name="theme-color" content="#eef1f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1f272d" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Strong Resolve">
+  <meta property="og:description" content="Apper og verktøy for Android og nett: Matvaretabellen, Dagen i dag og WattsLeft.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700;800&family=Archivo:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+  <script>try{var t=localStorage.getItem("sr-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-
 <body>
-    
-    <div class="container">        
-        <div class="row">
-			<div class="col-12">
-				<img class="mx-auto d-block" src="assets/logo.svg" height="200" width="200">
-			</div>
-		</div>
-</div>
+  <a class="sr-skip" href="#innhold">Hopp til innhold</a>
+  <header class="sr-wrap sr-header">
+    <div class="sr-tools"><nav class="sr-lang" aria-label="Språk / Language"><a aria-current="page" href="./" hreflang="nb" lang="nb">NO</a><a href="en/" hreflang="en" lang="en">EN</a></nav><button class="sr-theme" type="button" aria-label="Bytt mellom lyst og mørkt tema" title="Bytt mellom lyst og mørkt tema"><svg class="sr-theme__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1" stroke="currentColor" stroke-width="2" fill="none"/></svg><svg class="sr-theme__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button></div>
+  </header>
+  <main id="innhold">
+    <section class="sr-hero"><div class="sr-wrap">
+      <h1 class="sr-hero__logo"><img class="sr-on-light" src="assets/brand/sr-lockup.svg" alt="Strong Resolve" width="359" height="47"><img class="sr-on-dark" src="assets/brand/sr-lockup-dark.svg" alt="Strong Resolve" width="359" height="47"></h1>
+      <p class="lead">Apper og verktøy for Android og nett.</p>
+      <div class="sr-hero__actions"><a class="sr-btn sr-btn--primary" href="#apper">Se appene</a><a class="sr-btn sr-btn--secondary" href="#om">Om Strong Resolve</a></div>
+    </div></section>
+    <div class="sr-wrap"><div class="sr-bands" aria-hidden="true"></div></div>
+    <section id="apper"><div class="sr-wrap"><div class="sr-section" style="padding-bottom:0">
+      <div class="sr-section__head"><h2 class="h2">Appene</h2><p class="label">Android og nett</p></div>
+      <article class="sr-app" aria-labelledby="app-matvaretabellen">
+        <div class="sr-app__body">
+          <p class="label">01 — Android · Gratis</p>
+          <div class="sr-app__head"><img class="sr-app__icon" src="assets/apps/matvaretabellen/icon.webp" width="64" height="64" alt=""><h3 class="h3" id="app-matvaretabellen">Matvaretabellen</h3></div>
+          <p class="sr-app__text body">Kaloriteller og næringsoppslag basert på den offisielle norske matvaretabellen. Ingen konto – alt lagres på telefonen.</p>
+          <div class="sr-app__actions"><a class="sr-btn sr-btn--primary" href="https://play.google.com/store/apps/details?id=no.strongresolve.matvaretabellen&amp;hl=no"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11L12 7z"/></svg><span>Last ned på Google Play</span></a><a class="small" href="privacy_policy_matvaretabellen.html">Personvern</a></div>
+        </div>
+        <div class="sr-app__features"><h4 class="label sr-varde">Funksjoner</h4><ul class="sr-features"><li>Søk i over 2000 norske matvarer, sorter og filtrer etter næringsstoff</li><li>Skann strekkoden på pakkede matvarer</li><li>Sett kalorimål og logg det du spiser, med protein, karbo og fett</li><li>Bygg egne måltider og legg inn egne matvarer</li><li>Historikk, kalender og trender over 7, 30 og 90 dager</li><li>Vitaminer og mineraler mot anbefalt inntak (NNR 2023)</li><li>Sammenlign matvarer side om side</li><li>Fungerer uten nett</li></ul></div>
+        <ul class="sr-shots" aria-label="Skjermbilder fra Matvaretabellen"><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-1-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: I dag: kalorimål og dagens logg"><img src="assets/apps/matvaretabellen/shot-1.webp" width="320" height="711" loading="lazy" alt="I dag: kalorimål og dagens logg"></a></li><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-2-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: Innsikt: snitt og trender"><img src="assets/apps/matvaretabellen/shot-2.webp" width="320" height="711" loading="lazy" alt="Innsikt: snitt og trender"></a></li><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-3-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: Historikk i kalender"><img src="assets/apps/matvaretabellen/shot-3.webp" width="320" height="711" loading="lazy" alt="Historikk i kalender"></a></li><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-4-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: Matvarelisten med filtre"><img src="assets/apps/matvaretabellen/shot-4.webp" width="320" height="711" loading="lazy" alt="Matvarelisten med filtre"></a></li><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-5-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: Næringsinnhold for én matvare"><img src="assets/apps/matvaretabellen/shot-5.webp" width="320" height="711" loading="lazy" alt="Næringsinnhold for én matvare"></a></li><li><a class="sr-shot" href="assets/apps/matvaretabellen/shot-6-full.webp" data-w="900" data-h="2000" aria-label="Åpne større bilde: Eget måltid med ingredienser"><img src="assets/apps/matvaretabellen/shot-6.webp" width="320" height="711" loading="lazy" alt="Eget måltid med ingredienser"></a></li></ul>
+      </article>
+      <article class="sr-app" aria-labelledby="app-dagenidag">
+        <div class="sr-app__body">
+          <p class="label">02 — Android · Gratis</p>
+          <div class="sr-app__head"><img class="sr-app__icon" src="assets/apps/dagenidag/icon.webp" width="64" height="64" alt=""><h3 class="h3" id="app-dagenidag">Dagen i dag</h3></div>
+          <p class="sr-app__text body">Alt om dagen i dag, for stedet der du er.</p>
+          <div class="sr-app__actions"><a class="sr-btn sr-btn--primary" href="https://play.google.com/store/apps/details?id=no.strongresolve.dagenidag&amp;hl=no"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11L12 7z"/></svg><span>Last ned på Google Play</span></a><a class="small" href="privacy_policy_dagen_i_dag.html">Personvern</a></div>
+        </div>
+        <div class="sr-app__features"><h4 class="label sr-varde">Funksjoner</h4><ul class="sr-features"><li>Soloppgang, solnedgang og dagslengde</li><li>Skumring, månefase og måneoppgang</li><li>Vær og timevarsel fra Meteorologisk institutt</li><li>Navnedager og merkedager</li><li>Hva som skjedde på denne datoen i historien</li><li>Dagens sitat</li><li>Sol og måne beregnes lokalt og fungerer uten nett</li></ul></div>
+        <ul class="sr-shots" aria-label="Skjermbilder fra Dagen i dag"><li><a class="sr-shot" href="assets/apps/dagenidag/shot-1-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Solbuen med opp- og nedgang"><img src="assets/apps/dagenidag/shot-1.webp" width="320" height="569" loading="lazy" alt="Solbuen med opp- og nedgang"></a></li><li><a class="sr-shot" href="assets/apps/dagenidag/shot-2-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Månefase"><img src="assets/apps/dagenidag/shot-2.webp" width="320" height="569" loading="lazy" alt="Månefase"></a></li><li><a class="sr-shot" href="assets/apps/dagenidag/shot-3-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Været nå"><img src="assets/apps/dagenidag/shot-3.webp" width="320" height="569" loading="lazy" alt="Været nå"></a></li><li><a class="sr-shot" href="assets/apps/dagenidag/shot-4-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Dagens navnedager"><img src="assets/apps/dagenidag/shot-4.webp" width="320" height="569" loading="lazy" alt="Dagens navnedager"></a></li><li><a class="sr-shot" href="assets/apps/dagenidag/shot-5-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Kommende merkedager"><img src="assets/apps/dagenidag/shot-5.webp" width="320" height="569" loading="lazy" alt="Kommende merkedager"></a></li><li><a class="sr-shot" href="assets/apps/dagenidag/shot-6-full.webp" data-w="900" data-h="1600" aria-label="Åpne større bilde: Historiske hendelser"><img src="assets/apps/dagenidag/shot-6.webp" width="320" height="569" loading="lazy" alt="Historiske hendelser"></a></li></ul>
+      </article>
+      <article class="sr-app" aria-labelledby="app-wattsleft">
+        <div class="sr-app__body">
+          <p class="label">03 — Nett · Gratis</p>
+          <div class="sr-app__head"><img class="sr-app__icon" src="assets/apps/wattsleft/icon.svg" width="64" height="64" alt=""><h3 class="h3" id="app-wattsleft">WattsLeft</h3></div>
+          <p class="sr-app__text body">Simulator for lagtempo og felleskjøring på sykkel. Legg inn ryttere, løype og vær, og se hvem som bør dra hvor lenge – og hvem som sprekker. Under rittet følger laget dragplanen live på telefonen, ute eller på Zwift.</p>
+          <div class="sr-app__actions"><a class="sr-btn sr-btn--primary" href="https://wattsleft.strongresolve.no/"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M5 2h7v7h-2V5.4L3.7 11.7 2.3 10.3 8.6 4H5z"/></svg><span>Åpne WattsLeft</span></a></div>
+        </div>
+        <div class="sr-app__features"><h4 class="label sr-varde">Funksjoner</h4><ul class="sr-features"><li>Ryttere med vekt, FTP og treningsnivå</li><li>Importer løypa som GPX, eller velg en Zwift-rute</li><li>Værvarsel langs løypa, med vind og lufttetthet</li><li>Draglengder og tempo regnes ut fra fysikken</li><li>Reprise av rittet, med pacelinje og kart</li><li>Live-økt: delt nedtelling på telefonen som viser hvem som er på front, sekunder igjen og hvem som er neste</li><li>Sammenlign strategier, for eksempel om en rytter skal ofres</li><li>Usikkerhetsintervall rundt sluttiden</li></ul></div>
+        <ul class="sr-shots" aria-label="Skjermbilder fra WattsLeft"><li><a class="sr-shot sr-shot--wide" href="assets/apps/wattsleft/shot-1-full.webp" data-w="1440" data-h="660" aria-label="Åpne større bilde: Resultat med lagtid, snittfart og reprise"><img src="assets/apps/wattsleft/shot-1.webp" width="640" height="293" loading="lazy" alt="Resultat med lagtid, snittfart og reprise"></a></li><li><a class="sr-shot" href="assets/apps/wattsleft/shot-2-full.webp" data-w="824" data-h="1800" aria-label="Åpne større bilde: Live-økt: nedtelling for den som er på front"><img src="assets/apps/wattsleft/shot-2.webp" width="320" height="699" loading="lazy" alt="Live-økt: nedtelling for den som er på front"></a></li><li><a class="sr-shot" href="assets/apps/wattsleft/shot-3-full.webp" data-w="824" data-h="1800" aria-label="Åpne større bilde: Laget og rytterne på mobil"><img src="assets/apps/wattsleft/shot-3.webp" width="320" height="699" loading="lazy" alt="Laget og rytterne på mobil"></a></li></ul>
+      </article>
+    </div></div></section>
+    <section id="om"><div class="sr-wrap"><hr class="sr-rule"><div class="sr-section sr-about">
+      <div><p class="label sr-varde">Om</p><p class="sr-motto">Strong Resolve – fortsett når det blir bratt.</p></div>
+    </div></div></section>
+  </main>
+  <footer class="sr-footer"><div class="sr-wrap">
+    <div class="sr-footer__grid">
+      <div><img src="assets/brand/sr-wordmark-stacked-dark.svg" alt="Strong Resolve" width="121" height="58"></div>
+      <div><h2 class="sr-footer__h">Personvern</h2><ul><li><a href="privacy_policy_matvaretabellen.html">Matvaretabellen</a></li><li><a href="privacy_policy_dagen_i_dag.html">Dagen i dag</a></li><li><a href="privacy_policy_kommunetopp.html">Kommunetopp</a></li></ul></div>
+      <div><h2 class="sr-footer__h">Kontakt</h2><ul><li><a href="mailto:hei@strongresolve.no">hei@strongresolve.no</a></li></ul></div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <div class="sr-footer__base"><span>© 2026 Rolv Råen</span><span>strongresolve.no</span></div>
+  </div></footer>
+  <script src="js/site.js" defer></script>
 </body>
 </html>
