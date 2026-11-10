@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://strongresolve.no/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://strongresolve.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strongresolve.no/en/"/>
+  </url>
+  <url>
+    <loc>https://strongresolve.no/en/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://strongresolve.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strongresolve.no/en/"/>
+  </url>
+  <url><loc>https://strongresolve.no/privacy_policy_matvaretabellen.html</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://strongresolve.no/en/privacy_policy_matvaretabellen.html</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://strongresolve.no/privacy_policy_dagen_i_dag.html</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://strongresolve.no/en/privacy_policy_dagen_i_dag.html</loc><lastmod>2026-11-10</lastmod></url>
+</urlset>
